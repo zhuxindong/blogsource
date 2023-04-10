@@ -16,6 +16,10 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: "16"
+      - name: Hexo CI
+        run: 
+          export TZ='Asia/Shanghai'
+          npm install hexo-cli -g
       - name: Cache NPM dependencies
         uses: actions/cache@v2
         with:
