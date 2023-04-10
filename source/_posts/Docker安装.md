@@ -5,7 +5,7 @@ date: '2022-02-05 15:20:53'
 tags:
 - Docker
 title: Docker安装等
-updated: Mon, 10 Apr 2023 06:09:28 GMT
+updated: Mon, 10 Apr 2023 09:22:12 GMT
 ---
 Docker安装
 
@@ -40,7 +40,7 @@ $ curl -fsSL https://get.docker.com -o get-docker.sh
 $ sudo sh get-docker.sh
 ```
 
-网络不好的话可以考虑阿里云镜像
+ps:网络不好的话可以考虑阿里云镜像
 
 ```shell
 curl -fsSL [https://get.docker.com](https://get.docker.com) | bash -s docker --mirror Aliyun
